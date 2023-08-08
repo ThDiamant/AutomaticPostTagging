@@ -1,0 +1,24 @@
+{'classifier': 'KMeansFreq', 'train_points': 1000, 'frequency_threshold': 0.3, 'num_clusters': 10, 'results': {'modified_f1': 0.5693415637860084,  'train_time': 681.97580909729, 'prediction_time': 386.8894274234772}}
+{'classifier': 'KMeansFreq', 'train_points': 1000, 'frequency_threshold': 0.5, 'num_clusters': 10, 'results': {'modified_f1': 0.5493827160493829,  'train_time': 475.7094943523407, 'prediction_time': 283.82815313339233}}
+{'classifier': 'KMeansFreq', 'train_points': 1000, 'frequency_threshold': 0.7, 'num_clusters': 10, 'results': {'modified_f1': 0.0,  'train_time': 654.8928067684174,  'prediction_time': 382.3597400188446}}
+{'classifier': 'KMeansFreq', 'train_points': 1000, 'frequency_threshold': 0.3, 'num_clusters': 15, 'results': {'modified_f1': 0.5693415637860084, 'train_time': 532.3359405994415, 'prediction_time': 264.44318175315857}}
+{'classifier': 'KMeansFreq', 'train_points': 1000, 'frequency_threshold': 0.5, 'num_clusters': 15, 'results': {'modified_f1': 0.5493827160493829,  'train_time': 388.10298776626587,  'prediction_time': 185.3887448310852}}
+{'classifier': 'KMeansFreq', 'train_points': 1000, 'frequency_threshold': 0.7, 'num_clusters': 15, 'results': {'modified_f1': 0.0,  'train_time': 520.22713971138,  'prediction_time': 255.7706687450409}}
+{'classifier': 'KMeansFreq', 'train_points': 5000, 'frequency_threshold': 0.3, 'num_clusters': 10, 'results': {'modified_f1': 0.5216,  'train_time': 1887.83, 'prediction_time': 4032.61}}
+{'classifier': 'KMeansFreq', 'train_points': 5000, 'frequency_threshold': 0.5, 'num_clusters': 10, 'results': {'modified_f1': 0.5210,  'train_time': 2288.25, 'prediction_time': 1553.06}}
+{'classifier': 'KMeansFreq', 'train_points': 5000, 'frequency_threshold': 0.7, 'num_clusters': 10, 'results': {'modified_f1': 0.0,  'train_time': 2316.29,  'prediction_time': 1700.19}}
+{'classifier': 'LogisticRegression', 'train_points': 5000, 'results': {'Micro F1 Score': 0.5113, 'Macro F1 Score': 0.5035, 'train_time': 1926.81, 'prediction_time': 0.51, 'evaluation_time': 918.69}}
+{'classifier': 'RandomForestClassifier', 'train_points': 5000, 'results': {'Micro F1 Score': 0.1565, 'Macro F1 Score': 0.2243, 'train_time': 1855.24, 'prediction_time': 0.25, 'evaluation_time': 930.76}}
+{'classifier': 'OneVsRest', 'train_points': 5000, 'results': {'Micro F1 Score': 0.5747, 'Macro F1 Score': 0.5889, 'train_time': 2309.11, 'prediction_time': 5.29, 'evaluation_time': 1082.20}}
+{'classifier': 'LogisticRegression', 'train_points': 1000, 'results': {'Micro F1 Score': 0.5094, 'Macro F1 Score': 0.4991, 'train_time': 558.19, 'prediction_time': 0.30, 'evaluation_time': 259.69}}
+{'classifier': 'RandomForestClassifier', 'train_points': 1000, 'results': {'Micro F1 Score': 0.2087, 'Macro F1 Score': 0.2865, 'train_time': 526.06, 'prediction_time': 0.21, 'evaluation_time': 262.78}}
+{'classifier': 'OneVsRest', 'train_points': 1000, 'results': {'Micro F1 Score': 0.6135, 'Macro F1 Score': 0.6022, 'train_time': 643.35, 'prediction_time': 6.22, 'evaluation_time': 374.75}}
+{'classifier': 'NearestNeighbors', 'train_points': 1000, 'k': 5, 'frequency_threshold': 0.3, 'results': {'modified_f1': 0.6449,  'train_time': 0.39, 'prediction_time': 60.16}}
+{'classifier': 'NearestNeighbors', 'train_points': 1000, 'k': 5, 'frequency_threshold': 0.5, 'results': {'modified_f1': 0.6130,  'train_time': 0.39, 'prediction_time': 44.78}}
+{'classifier': 'NearestNeighbors', 'train_points': 1000, 'k': 5, 'frequency_threshold': 0.7, 'results': {'modified_f1': 0.5021,  'train_time': 0.39, 'prediction_time': 33.83}}
+{'classifier': 'NearestNeighbors', 'train_points': 5000, 'k': 5, 'frequency_threshold': 0.3, 'results': {'modified_f1': 0.6134,  'train_time': 0.34, 'prediction_time': 289.10}}
+{'classifier': 'NearestNeighbors', 'train_points': 5000, 'k': 5, 'frequency_threshold': 0.5, 'results': {'modified_f1': 0.5735,  'train_time': 0.34, 'prediction_time': 262.90}}
+{'classifier': 'NearestNeighbors', 'train_points': 5000, 'k': 5, 'frequency_threshold': 0.7, 'results': {'modified_f1': 0.4833,  'train_time': 0.34, 'prediction_time': 261.66}}
+{'classifier': 'NearestNeighbors', 'train_points': 10000, 'k': 5, 'frequency_threshold': 0.3, 'results': {'modified_f1': 0.6021,  'train_time': 0.13, 'prediction_time': 319.17}}
+{'classifier': 'NearestNeighbors', 'train_points': 10000, 'k': 5, 'frequency_threshold': 0.5, 'results': {'modified_f1': 0.5391,  'train_time': 0.13, 'prediction_time': 330.73}}
+{'classifier': 'NearestNeighbors', 'train_points': 10000, 'k': 5, 'frequency_threshold': 0.7, 'results': {'modified_f1': 0.4366,  'train_time': 0.13, 'prediction_time': 317.05}}
