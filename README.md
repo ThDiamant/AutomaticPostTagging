@@ -1,11 +1,5 @@
 # Automatic Post Tagging
 
-##### Table of Contents  
-[Headers](#headers)  
-[Emphasis](#emphasis)  
-...snip...    
-<a name="headers"/>
-
 ## Motivation
 
 The area of text analytics (or text mining) includes techniques from a multitude of scientific areas (A.I.,
