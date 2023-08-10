@@ -1,5 +1,22 @@
 # Automatic Post Tagging
 
+In this project, we build machine learning models in order to predict the tags of stackoverflow.com posts using PySpark and sklearn.
+
+## Contents
+
+- [Motivation](#motivation)
+- [Summary](#summary)
+- [Methodology](#methodology)
+    - [1. Problem Transformation Methods](#1-problem-transformation-methods)
+    - [2. Approximate kNN Search](#2-approximate-knn-search)
+    - [3. k-Means Frequency Classification](#3-k-means-frequency-classification)
+- [Key results](#key-results)
+	- [Best results come from problem transformation methods](#best-results-come-from-problem-transformation-methods)
+		- [Pyspark: One-vs-Rest classifier achieves best $F_{1}$ score](#pyspark-one-vs-rest-classifier-achieves-best-score)
+		- [Python: XGBoost with Classifier Chains achieves best $F_{1}$ score](#python-xgboost-with-classifier-chains-achieves-best-score)
+	- [Learning Curves: Overfitting](#learning-curves-overfitting)
+
+
 ## Motivation
 
 The area of text analytics (or text mining) includes techniques from a multitude of scientific areas (A.I.,
