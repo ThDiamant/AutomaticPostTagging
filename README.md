@@ -1,6 +1,6 @@
 # Automatic Post Tagging
 
-In this project, we build machine learning models in order to predict the tags of stackoverflow.com posts using PySpark and sklearn.
+In this project, we build machine learning models in order to predict the tags of stackoverflow.com posts using PySpark and sklearn. Various NLP techniques are first applied to prepare the raw data.
 
 ## Contents
 
