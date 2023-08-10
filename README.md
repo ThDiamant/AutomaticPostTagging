@@ -1,5 +1,10 @@
 # Automatic Post Tagging
 
+##### Table of Contents  
+[Headers](#headers)  
+[Emphasis](#emphasis)  
+...snip...    
+<a name="headers"/>
 
 ## Motivation
 
